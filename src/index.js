@@ -21,4 +21,6 @@ console.log(merge);
 //vgső összes js file convert to one big js file
 //dist be szerepel majd az apk vagy az amit meg kell jelenitei pl html
 //webpack tömöriti a kódokat hogy a neten vagy telefonon könnyen be tudja tölteni ha változtatunk magától változik
-//node dist/main.js == node index.js
+//node dist/main.js == node ./src/index.js
+//npm install al hozza létre a node_modules mappát a package lock segítségével
+//package.json script köze a kezdő pontot node al elotte start:node src/index.js ezt utána el tudjuk inditani npm start al
