@@ -25,8 +25,9 @@ document.getElementById("gomb").addEventListener('click',katt);
 //.gitignore when commit u dont need to upload the node_modules/ because of the package-lock.json and package.json know the detail of the project so u can get the packages any time
 //vgső összes js file convert to one big js file
 //dist be szerepel majd az apk vagy az amit meg kell jelenitei pl html
-//webpack tömöriti a kódokat hogy a neten vagy telefonon könnyen be tudja tölteni ha változtatunk magától változik
+//webpack tömöriti a kódokat hogy a neten vagy telefonon könnyen be tudja tölteni ha változtatunk magától változik és ezt az npm run build 
 //node dist/main.js == node ./src/index.js
 //npm install al hozza létre a node_modules mappát a package lock segítségével
 //package.json script köze a kezdő pontot node al elotte start:node src/index.js ezt utána el tudjuk inditani npm start al
 //npm run build lefuttatja a buildet
+//package.json ban a start ba azt adjuk meg ami elindul lefutáskor a build be pedig a tömöritö fut le ami jelen esetbe a webpack elé npx
