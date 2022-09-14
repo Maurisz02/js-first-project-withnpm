@@ -13,6 +13,12 @@ let t3=[3];
 let merge = _.concat(t1,t2,t3);
 console.log(merge);
 
+function katt(){
+    alert('EYOO CHIIIIIIIL')
+}
+
+document.getElementById("gomb").addEventListener('click',katt);
+
 //src be kell dolgozni
 //npm init --> package.json => type:module
 //npm install --save ldash --> node_modules - package library || package-lock.json - more detailed project information pending on package.json
