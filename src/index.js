@@ -2,7 +2,6 @@ import _ from 'lodash';
 import { veletlen } from './matek.js';
 import {NEV,LOREM} from './texts/sepcial.js';
 
-
 console.log("Hello");
 console.log(veletlen(5,10));
 console.log(NEV + ' ' + LOREM);
@@ -24,3 +23,4 @@ console.log(merge);
 //node dist/main.js == node ./src/index.js
 //npm install al hozza létre a node_modules mappát a package lock segítségével
 //package.json script köze a kezdő pontot node al elotte start:node src/index.js ezt utána el tudjuk inditani npm start al
+//npm run build lefuttatja a buildet
